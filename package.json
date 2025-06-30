@@ -1,0 +1,25 @@
+{
+	"name": "Blogging Website-Assignment # 04",
+	"version": "1.0.0",
+	"description": "A simple blogging website with three pages",
+	"scripts": {
+		"lint:html": "htmlhint 'src/**/*.html'",
+		"lint:css": "stylelint 'styles/**/*.css'",
+		"lint": "npm run lint:html && npm run lint:css",
+		"lint:fix": "stylelint 'styles/**/*.css' --fix",
+		"start": "parcel src/index.html",
+		"build": "parcel build src/index.html --dist-dir dist --public-url ./"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/muqadas-m/Blogging-Website"
+	},
+	"keywords": [
+		"blog",
+		"website",
+		"html",
+		"css"
+	],
+	"author": "Muqaddus Muzammil",
+	"license": "MIT"
+}
