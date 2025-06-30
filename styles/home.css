@@ -47,25 +47,8 @@
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
   
-  .posts article {
-    margin-bottom: 2rem;
-    padding-bottom: 1rem;
-    border-bottom: 1px solid #ddd;
-  }
-  
-  .posts h2 {
-    color: #0077b6;
-  }
-  
-  .posts a {
-    display: inline-block;
-    margin-top: 0.5rem;
-    color: #023e8a;
-    text-decoration: none;
-  }
-  
-  .posts a:hover {
-    text-decoration: underline;
+  .intro {
+    text-align: center;
   }
   
   footer {
